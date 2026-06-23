@@ -266,11 +266,13 @@ section { position: relative; }
 /* ===================== HERO ===================== */
 #hero {
   min-height: 100vh;
-  display: flex; align-items: center;
+  display: flex; 
+  align-items: center;
   padding-top: 72px;
   background: var(--bg);
   overflow: hidden;
   position: relative;
+  width: 100%;
 }
 .hero-ambient {
   position: absolute; inset: 0;
