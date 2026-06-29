@@ -974,6 +974,11 @@ section { position: relative; }
   background: var(--gold-dim);
 }
 
+
+
+
+
+
 /* ===================== WHY ===================== */
 #why { background: var(--surface); }
 .why-grid {
@@ -981,6 +986,15 @@ section { position: relative; }
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
   margin-top: 60px;
+}
+
+
+
+#why {
+  width: 100%;
+  margin: auto;
+  padding: 85px;
+
 }
 .why-card {
   background: var(--glass);
@@ -1009,6 +1023,10 @@ section { position: relative; }
   color: var(--white);
   line-height: 1.4;
 }
+
+
+
+
 
 /* ===================== PROCESS ===================== */
 #process { background: var(--bg); }
