@@ -625,6 +625,9 @@ section { position: relative; }
   to   { transform: scaleX(1); }
 }
 
+
+
+
 /* ===================== ABOUT ===================== */
 #about { background: var(--surface); }
 .about-grid {
@@ -632,6 +635,10 @@ section { position: relative; }
   grid-template-columns: 1fr 1fr;
   gap: 80px;
   align-items: center;
+  width: 90%;
+  margin: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .about-visual {
   position: relative;
