@@ -693,6 +693,10 @@ section { position: relative; }
 }
 .about-text p:last-of-type { margin-bottom: 32px; }
 
+
+
+
+
 /* ===================== SKILLS ===================== */
 #skills { background: var(--bg); }
 .skills-grid {
@@ -700,6 +704,10 @@ section { position: relative; }
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
   margin-top: 60px;
+  width: 90%;
+  margin: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .skill-card {
   background: var(--glass);
