@@ -1094,6 +1094,13 @@ section { position: relative; }
   gap: 24px;
   margin-top: 60px;
 }
+
+#testimonials {
+  width: 100%;
+  margin: auto;
+  padding: 85px;
+}
+
 .testimonial-card {
   background: var(--glass);
   border: 1px solid var(--border);
@@ -1151,6 +1158,9 @@ section { position: relative; }
 }
 .author-role { font-size: 0.78rem; color: var(--muted); }
 
+
+
+
 /* ===================== CONTACT ===================== */
 #contact { background: var(--bg); }
 .contact-grid {
@@ -1158,6 +1168,13 @@ section { position: relative; }
   grid-template-columns: 1fr 1.6fr;
   gap: 80px;
   align-items: flex-start;
+}
+
+#contact {
+  width: 90%;
+  margin: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .contact-info { }
 .contact-info p {
@@ -1285,7 +1302,7 @@ footer {
   padding: 60px clamp(24px, 5vw, 80px) 32px;
 }
 .footer-inner {
-  max-width: 1200px; margin: 0 auto;
+  width: 100%; margin: 0 auto;
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
   gap: 60px;
