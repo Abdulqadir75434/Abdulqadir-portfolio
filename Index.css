@@ -1037,6 +1037,14 @@ section { position: relative; }
   margin-top: 60px;
   position: relative;
 }
+
+#process {
+  width: 90%;
+  margin: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 .process-steps::before {
   content: '';
   position: absolute;
